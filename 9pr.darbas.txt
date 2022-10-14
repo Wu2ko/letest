@@ -1,0 +1,132 @@
+    1  sudo passwd root
+    2  ./autorun.sh 
+    3  reboot
+    4  sudo reboot
+    5  sudo dpkg
+    6  sudo dpkg-reconfigure unattended-upgrades 
+    7  poweroff
+    8  history
+    9  sudo passwd root
+   10  cd /home/saulius/
+   11  ls
+   12  ls -l
+   13  sudo chmod
+   14  sudo chmod Desktop
+   15  sudo chmod Desktop/
+   16  sudo chmod /Desktop/
+   17  sudo chmod 777 /Desktop/
+   18  sudo chmod 777 /Desktop
+   19  sudo chmod 777 Desktop
+   20  ls -lt
+   21  cd Desktop/
+   22  ls
+   23  cd ..
+   24  ls
+   25  mkdir ~/Bandymas
+   26  cd ~/Bandymas/
+   27  touch f1.txt
+   28  ls
+   29  touch f2.txt f3.txt f4.txt ff1.txt ff2.txt ff3.txt ff4.txt
+   30  cd ~
+   31  mkdir Tikslas
+   32  ls
+   33  cd Bandymas/
+   34  cp f1.txt ~/Tikslas/
+   35  cp {f3.txt,ff2.txt,ff4txt} ~/Tikslas/
+   36  cp {f3.txt,ff2.txt,ff4.txt} ~/Tikslas/
+   37  cd ~/Tikslas/
+   38  ls
+   39  sudo apt update
+   40  rename
+   41  sudo apt install rename
+   42  ls
+   43  rename -h
+   44  rename -m
+   45  rename f1.txt f111.txt
+   46  rename "f1.txt" "f111.txt"
+   47  rename s/f1.txt/f202.txt
+   48  rename 's/f1.txt/f202.txt'
+   49  rename 's/f1.txt/f202.txt' -v
+   50  rename 's/f1/f202.txt' -v
+   51  rename 's/f1.txt/f202.txt/' -v
+   52  rename 's/f/tesettext/' -v
+   53  rename 's/f/tesettext/' *.txt -v
+   54  rename 's/f/tesettext/' w.txt -v
+   55  rename 's/tesettext/f/' w.txt -v
+   56  rename 's/tesettext/f/' *.txt -v
+   57  rename 's/f/file/' *.txt -v
+   58  ls
+   59  cp /etc/passwd ~/Bandymas/
+   60  cd ~/Bandymas/
+   61  ls
+   62  echo passwd 
+   63  nano passwd 
+   64  cat passwd 
+   65  cat 5 passwd 
+   66  clear
+   67  cat --help
+   68  cat -n 5
+   69  cat -n passwd
+   70  cat -n5 passwd
+   71  cat -n 5 passwd
+   72  clear
+   73  head -n 5 passwd
+   74  head -n 5 passwd |tail -n 5 passwd 
+   75  tail -n 5 passwd 
+   76  head -n 5 passwd |tail -n 5 passwd 
+   77  head -n 5 passwd|tail -n 5 passwd 
+   78  head -n 5 passwd
+   79  cat passwd|head -n 5|tail -n 5
+   80  cat passwd 
+   81  clear
+   82  cat passwd|head -n 5|tail -n 5
+   83  cat passwd|head -n 5 && tail -n 5
+   84  cat passwd|head -n5 | tail -n5
+   85  echo cat passwd|head -n5 | tail -n5
+   86  cat passwd|(head -n5 tail -n5)
+   87  head -5 passwd 
+   88  head -5 passwd|tail -5
+   89  head -5 passwd|tail -5 passwd 
+   90  head -5 passwd||tail -5 passwd 
+   91  head -5 passwd && tail -5 passwd 
+   92  clear
+   93  symlink --help
+   94  ln --help
+   95  ls
+   96  ln passwd ~\Tikslas\passwd_link
+   97  cd ~\Tikslas
+   98  ln passwd ~/Tikslas/passwrd_link
+   99  cd ~/Tikslas/
+  100  ls
+  101  rm --help
+  102  rm ~/Bandymas/passwd 
+  103  ls
+  104  cd ~/Bandymas/
+  105  ls
+  106  cd ..
+  107  rm Bandymas/
+  108  rm --help
+  109  rm -dir Bandymas/
+  110  rm -dir Bandymas/ -f
+  111  ls
+  112  cat history
+  113  history>history_out_2022-10-07
+  114  ls
+  115  cat history_out_2022-10-07 
+  116  poweroff
+  117  sudo nano /etc/ssh/sshd_config
+  118  sudo systemctl stop ssh
+  119  systemctl start ssh
+  120  systemctl status ssh --no-pager
+  121  systemctl start ssh
+  122  systemctl status ssh --no-pager
+  123  sudo nano /etc/ssh/sshd_config
+  124  systemctl start ssh
+  125  systemctl restart ssh
+  126  .
+  127  systemctl status ssh --no-pager
+  128  systemctl status ssh
+  129  systemctl status ssh --no-pager
+  130  history >9pr.darbas.txt
+  131  cd ~/Desktop/
+  132  history >9pr.darbas.txt
